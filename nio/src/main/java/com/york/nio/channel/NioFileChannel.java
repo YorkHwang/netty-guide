@@ -12,7 +12,7 @@ import java.nio.channels.FileChannel;
 public class NioFileChannel {
 
     private static String CONTENT = "FileChannel的写文件实例";
-    private static String FILE_PATH = "/scala/a.txt";
+    private static String FILE_PATH = "a.txt";
     private static String UTF8 = "UTF-8";
 
 

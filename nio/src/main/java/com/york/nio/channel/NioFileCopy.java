@@ -12,8 +12,8 @@ import java.nio.channels.FileChannel;
  * @Time: 2020/3/9 23:36
  */
 public class NioFileCopy {
-    private static final String SOURCE_FILE_PATH = "/scala/a.txt";
-    private static final String TARGET_FILE_PATH = "/scala/b.txt";
+    private static final String SOURCE_FILE_PATH = "a.txt";
+    private static final String TARGET_FILE_PATH = "b.txt";
 
     public static void main(String[] args) throws IOException {
         FileInputStream fileInputStream = new FileInputStream(SOURCE_FILE_PATH);
