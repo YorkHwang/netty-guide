@@ -24,5 +24,6 @@ public class ByteBufferPutGet {
         System.out.println(byteBuffer.getChar());
         System.out.println(byteBuffer.getInt());
         System.out.println(byteBuffer.getLong());
+
     }
 }
